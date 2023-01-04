@@ -139,7 +139,7 @@ html 학습 내용 정리
 
 <details><summary><h4>목록 태그</h4></summary>
 
-- `<ul>` (Unorderd List)
+- `<ul>` (**U**norderd **L**ist)
   - **기능** : 순서가 없는 목록을 하위 태그 가지는 상위 태그
   
   - **유형** : block tag
@@ -188,7 +188,7 @@ html 학습 내용 정리
   - **유형** : block tag
   
   - **하위 태그 목록**
-    - `<img>` : 후술
+    - `<img/>` : 후술
     - `<figcaption>` : 이미지의 주석을 기입함
 
 - `<img/>`
