@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buttonTag</title>
+</head>
+<body>
+    <button type="button" name="button" onclick="alert('Hello World!')">onClick을 통해 기능이 설정된 버튼</button>
+    
+    <br/><br/>
+
+    <form id="submitButton">
+        <label for="submitInput">텍스트 입력창</label>
+        <input type="text" name="text" value="속성 value를 통해 기본값 입력 가능" id="submitInput"></input>
+    </form>
+    <button type="submit" name="submitAction" form="submitButton">제출 버튼</button>
+
+    <br/><br/>
+
+    <form id="resetButton">
+        <label for="resetInput">텍스트 입력창</label>
+        <input type="text" name="text" value="속성 value를 통해 기본값 입력 가능" id="resetInput"></input>
+    </form>
+    <button type="reset" name="reactAction" form="submit">초기화 버튼</button>
+</body>
+</html>
