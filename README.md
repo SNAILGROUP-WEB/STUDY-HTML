@@ -1,5 +1,11 @@
 <h1 align='center'>📚 HTML BASIC SYNTAX 📚</h1>
 
+<details><summary><h4>refer</h4></summary>
+
+- [MDN Web Docs](https://developer.mozilla.org/ko/)
+
+</details>
+
 ---
 
 ## 📖 HTML
