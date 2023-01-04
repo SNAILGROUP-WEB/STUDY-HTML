@@ -237,7 +237,6 @@ html 학습 내용 정리
     - `<legend>` : 후술
     - `<label>` : 후술
     - `<input>` : 후술
-    - `<button>` : 후술
 
 - `<button>`
   - **기능** :
@@ -271,7 +270,6 @@ html 학습 내용 정리
     - `<legend>` : `<fieldset>` 의 제목을 명시함
     - `<label>` : 후술
     - `<input>` : 후술
-    - `<button>` : 후술
 
 </details>   
 
