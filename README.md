@@ -2,7 +2,9 @@
 
 <details><summary><h4>refer</h4></summary>
 
-- [MDN Web Docs](https://developer.mozilla.org/ko/)
+- [**MDN Web Docs**](https://developer.mozilla.org/ko/)
+
+- [**W3Schools**](https://www.w3schools.com/)
 
 </details>
 
