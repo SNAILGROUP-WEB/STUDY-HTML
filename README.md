@@ -245,7 +245,7 @@ html 학습 내용 정리
 - `<em>` (**EM**phasized text)
   - **기능** : 텍스트 강조하기
   
-  - 유형 : inline tag
+  - **유형** : inline tag
   
   - **`<strong>` 태그와 차이점**
     - 텍스트를 기울임체로 강조함
