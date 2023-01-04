@@ -201,6 +201,7 @@ html 학습 내용 정리
   
   - **속성 목록**
     - `href` (**H**yper-text **REF**erence) : 하이퍼링크 url 설정
+    
     - `target` : 페이지 열람 방식 설정
       - `target = "_self"` : 기존 페이지에서 하이퍼링크 주소로 이동
       - `target = "_blank"` : 새 페이지를 열어서 하이퍼링크 주소로 이동
