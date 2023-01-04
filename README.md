@@ -1,9 +1,9 @@
-# HTML Basic Syntax
+<h1 align='center'>📚 HTML BASIC SYNTAX 📚</h1>
 html 학습 내용 정리
 
 ---
 
-## HTM
+## 📖 HTML
 
 - **구조**
   - `<html>` : 하나의 html 페이지를 묶는 태그임
@@ -23,7 +23,7 @@ html 학습 내용 정리
 
 ---
 
-## Semantic Tag
+## 🏛 Semantic Tag
 
 <details><summary><h4>머릿말 태그</h4></summary>
 
@@ -135,7 +135,7 @@ html 학습 내용 정리
 
 ---
 
-## Contents Tag
+## ✂ Contents Tag
 
 <details><summary><h4>목록 태그</h4></summary>
 
@@ -220,7 +220,79 @@ html 학습 내용 정리
   
 ---
 
-## TEXT Tag
+## Input Tag
+
+- `<form>`
+
+- `<fieldset>`
+  - **기능** :
+  
+  - **유형** :
+  
+  - **하위 태그 목록**
+    - `<legend>`
+    - `<button>` : 후술
+    - `<label>` : 후술
+    - `<input>` : 후술
+    
+- `<label>`
+  - **기능** :
+  
+  - **유형** :
+  
+  - **속성 목록**
+    - `for` : 해당 속성의 값을 매개로 `<input>` 과 매핑함
+
+- `<input>`
+  - **기능** :
+  
+  - **유형** :
+  
+  - **속성 목록**
+    - `id` : 해당 속성의 값을 매개로 `<label>` 과 연결함
+    - `type` : 입력 양식
+    - `name` : 서버에 전송될 입력값의 변수명
+    - `value` : 입력값의 초기값
+  
+  - **`type` 속성값 목록**
+    - `type = "text"` : 텍스트 입력창 생성
+  
+    - `type = "password"` : 비밀번호 입력창 생성
+  
+    - `type = "radio"` : 라디오 버튼 생성
+      - `name` 속성값이 일치된 선택지들을 하나의 묶음으로 취급함
+  
+    - `type = "checkbox"` : 체크박스 생성
+      - `name` 속성값이 일치된 선택지들을 하나의 묶음으로 취급함
+  
+    - `type = "button"` : 기능이 탑재되지 않은 버튼 생성
+      - JS를 활용하여 사용자 설정 기능을 부여하고자 하는 경우 사용함
+  
+    - `type = "file"` : 파일 선택 버튼 생성
+  
+    - `type = "submit"` : 서버 전송 버튼 생성
+  
+    - `type = "image"` : submit 기능하는 이미지 생성
+      - `src` 속성값으로 이미지 주소 기입
+
+- `<button>`
+  - **기능** :
+  
+  - **유형** :
+  
+  - **속성 목록**
+    - `type`
+    - `form` : 해당 버튼이 기능할 상위 태그 `<form>` 설정
+      - 해당 속성값은 상위 태그 `<form>`의 속성 `id` 값에 대응함
+  
+  - **`type` 속성값 목록**
+    - `type = "button"` : 상위 태그 `<form>` 에 대하여 기능할 수 있는 버튼 생성
+    - `type = "reset"` : 상위 태그 `<form>` 에서 입력받은 값을 초기화하는 버튼 생성
+    - `type = "submit"` : 상위 태그 `<form>` 에서 입력받은 값을 서버로 전송하는 버튼 생성
+  
+---
+
+## ✏ TEXT Tag
 
 <details><summary><h4>제목 태그</h4></summary>
 
