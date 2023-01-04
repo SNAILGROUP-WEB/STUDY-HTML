@@ -189,7 +189,7 @@ html 학습 내용 정리
   
   - **하위 태그 목록**
     - `<img>` : 후술
-    - `<figcaption>` : 이미지의 주석을 기입하는 태그
+    - `<figcaption>` : 이미지의 주석을 기입함
 
 - `<img/>`
   - **기능** : 이미지 주소를 기입하는 태그
@@ -220,14 +220,14 @@ html 학습 내용 정리
   
 ---
 
-## Input Tag
+## ⌨ Input Tag
 
 <details><summary><h4>FORM & BUTTON</h4></summary>  
   
 - `<form>`
-  - **기능** :
+  - **기능** : 입력값을 받는 영역을 구성하는 최상위 태그
   
-  - **유형** :
+  - **유형** : block tag
   
   - **속성 목록**
     - `id` : 해당 속성의 값을 매개로 `<button>` 과 매핑함
@@ -239,14 +239,14 @@ html 학습 내용 정리
     - `<input>` : 후술
 
 - `<button>`
-  - **기능** :
+  - **기능** : `<form>` 에 대하여 기능하는 버튼을 생성함
   
-  - **유형** :
+  - **유형** : inline tag
   
   - **속성 목록**
-    - `type`
+    - `type` : 버튼 기능 설정
     
-    - `form` : 해당 버튼이 기능할 상위 태그 `<form>` 설정
+    - `form` : 해당 버튼이 기능할 태그 `<form>` 설정
       - 해당 속성값은 상위 태그 `<form>`의 속성 `id` 값에 대응함
   
   - **`type` 속성값 목록**
@@ -262,9 +262,9 @@ html 학습 내용 정리
 <details><summary><h4>FIELDSET & LEGEND</h4></summary>    
   
 - `<fieldset>`
-  - **기능** :
+  - **기능** : 최상위 태그 `<form>` 의 구성요소들을 논리적으로 구분함
   
-  - **유형** :
+  - **유형** : block tag
   
   - **하위 태그 목록**
     - `<legend>` : `<fieldset>` 의 제목을 명시함
@@ -276,17 +276,17 @@ html 학습 내용 정리
 <details><summary><h4>LABEL & INPUT</h4></summary>   
   
 - `<label>`
-  - **기능** : 
+  - **기능** : `<input>` 의 제목을 명시함
   
-  - **유형** :
+  - **유형** : inline tag
   
   - **속성 목록**
     - `for` : 해당 속성의 값을 매개로 `<input>` 과 매핑함
 
 - `<input>`
-  - **기능** :
+  - **기능** : 입력값을 받는 창을 생성함
   
-  - **유형** :
+  - **유형** : inline tag
   
   - **속성 목록**
     - `id` : 해당 속성의 값을 매개로 `<label>` 과 매핑함
@@ -319,7 +319,7 @@ html 학습 내용 정리
   
 ---
 
-## ✏ TEXT Tag
+## ✏ Text Tag
 
 <details><summary><h4>제목 태그</h4></summary>
 
