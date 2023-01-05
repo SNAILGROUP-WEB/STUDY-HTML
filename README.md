@@ -48,7 +48,7 @@
 
 ## 🏛 Logical Division Tag
 
-<details><summary><h4>머릿말 태그</h4></summary>
+<details><summary><h4>머릿말</h4></summary>
 
 - `<header>`
   - **기능** : 머릿말 영역을 설정하는 상위 시멘틱 태그
@@ -57,7 +57,7 @@
 
 </details>
 
-<details><summary><h4>메인 페이지 태그</h4></summary>
+<details><summary><h4>메인 페이지</h4></summary>
 
 - `<main>`
   - **기능** : 메인 페이지 영역을 설정하는 상위 시멘틱 태그
@@ -88,7 +88,7 @@
 
 </details>
 
-<details><summary><h4>사이드바 태그</h4></summary>
+<details><summary><h4>사이드바</h4></summary>
 
 - `<nav>` (**NAV**igation links)
   - **기능** : 사이드바를 구성하는 중위 시멘틱 태그
@@ -112,7 +112,7 @@
 
 </details>
 
-<details><summary><h4>꼬릿말 태그</h4></summary>
+<details><summary><h4>꼬릿말</h4></summary>
 
 - `<footer>`
   - **기능** : 꼬릿말 영역을 설정하는 상위 시멘틱 태그
@@ -122,19 +122,6 @@
 </details>
 
 <details><summary><h4>기타</h4></summary>
-
-- `<p>` (**P**aragraph)
-  - **기능** : 단락을 구분하는 하위 시멘틱 태그
-  
-  - **유형** : block tag
-  
-  - **여타 태그와의 차이점**
-    - 통상적으로는 텍스트 문단 구분 시 사용됨
-    - `<div>` 태그와 차이점 : 상하여백이 설정되어 있음
-    - `<span>` 태그와 차이점 : block tag 임
-  
-  - **하위 태그 목록**
-    - 일반적인 block tag 와 달리, inline tag 만을 하위 태그로 취할 수 있음
 
 - `<div>` (**DIV**ition)
   - **기능** : 단락을 구분하는 하위 시멘틱 태그
@@ -160,7 +147,7 @@
 
 ## ✂ Contents Tag
 
-<details><summary><h4>목록 태그</h4></summary>
+<details><summary><h4>List</h4></summary>
 
 - `<ul>` (**U**norderd **L**ist)
   - **기능** : 순서가 없는 목록을 하위 태그로 가지는 시멘틱 태그
@@ -189,7 +176,7 @@
 
 </details>
 
-<details><summary><h4>표 태그</h4></summary>
+<details><summary><h4>Table</h4></summary>
 
 - `<table>`
   - **기능** : 표를 구성하는 시멘틱 태그
@@ -203,7 +190,7 @@
 
 </details>
 
-<details><summary><h4>이미지 태그</h4></summary>
+<details><summary><h4>Image</h4></summary>
 
 - `<figure>`
   - **기능** : 이미지 영역을 구성하는 시멘틱 태그
@@ -225,7 +212,7 @@
 
 </details>
 
-<details><summary><h4>하이퍼링크 태그</h4></summary>
+<details><summary><h4>HyperLink</h4></summary>
 
 - `<a>` (**A**nchor)
   - **기능** : 하이퍼링크를 연결함
@@ -348,7 +335,7 @@
 
 ## ✏ Text Tag
 
-<details><summary><h4>제목 태그</h4></summary>
+<details><summary><h4>Title</h4></summary>
 
 - 폰트 크기 순으로 `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`이 있음
 
@@ -356,7 +343,19 @@
 
 </details>
 
-<details><summary><h4>서식 태그</h4></summary>
+<details><summary><h4>Logical Division</h4></summary>  
+  
+- `<p>` (**P**aragraph)
+  - **기능** : 텍스트 영역을 구성하는 시멘틱 태그
+  
+  - **유형** : block tag
+  
+  - **유의점** : 상하여백이 설정되어 있음
+  
+  - **하위 태그 목록**
+    - 일반적인 block tag 와 달리, inline tag 만을 하위 태그로 취할 수 있음
+
+<details><summary><h4></h4></summary>
   
 - `<blockqoute>`
   - **기능** : 인용구를 입력함
