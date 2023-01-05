@@ -206,7 +206,7 @@
 <details><summary><h4>이미지 태그</h4></summary>
 
 - `<figure>`
-  - **기능** : 이미지를 구성하는 시멘틱 태그
+  - **기능** : 이미지 영역을 구성하는 시멘틱 태그
   
   - **유형** : block tag
   
@@ -245,7 +245,7 @@
 
 ## ⌨ Input Tag
 
-<details><summary><h4>FORM & BUTTON</h4></summary>  
+<details><summary><h4>Logical Division</h4></summary>  
   
 - `<form>`
   - **기능** : 입력값을 받는 영역을 구성하는 시멘틱 태그
@@ -260,34 +260,9 @@
     - `<legend>` : 후술
     - `<label>` : 후술
     - `<input>` : 후술
-
-- `<button>`
-  - **기능** : `<form>` 전반에 대하여 기능하는 버튼을 생성함
-  
-  - **유형** : inline tag
-  
-  - **속성 목록**
-    - `type` : 버튼 기능 설정
-    
-    - `form` : 해당 버튼이 기능할 태그 `<form>` 설정
-      - 해당 속성값은 상위 태그 `<form>`의 속성 `id` 값에 대응함
-  
-  - **`type` 속성값 목록**
-    - `type = "button"` : 상위 태그 `<form>` 에 대하여 기능할 수 있는 버튼 생성
-      - 임의로 기능을 설정하고자 하는 경우 사용함
-      - `onClick` 속성값을 통해 간단한 기능을 설정할 수 있음
-      - JS를 활용하여 보다 복잡한 기능을 설정할 수 있음
-    
-    - `type = "reset"` : 상위 태그 `<form>` 에서 입력받은 값을 초기화하는 버튼 생성
-    
-    - `type = "submit"` : 상위 태그 `<form>` 에서 입력받은 값을 서버로 전송하는 버튼 생성  
-
-</details> 
-
-<details><summary><h4>FIELDSET & LEGEND</h4></summary>    
   
 - `<fieldset>`
-  - **기능** : `<form>` 에 대하여 관련 있는 하위 요소들끼리 묶음
+  - **기능** : `<form>` 의 하위 요소들을 관련에 따라 묶음
   
   - **유형** : block tag
   
@@ -298,7 +273,7 @@
 
 </details>   
 
-<details><summary><h4>LABEL & INPUT</h4></summary>   
+<details><summary><h4>Input</h4></summary>   
   
 - `<label>`
   - **기능** : `<input>` 의 제목을 명시함
@@ -343,6 +318,31 @@
       - `src` 속성값으로 이미지 주소 기입
 
 </details>  
+
+<details><summary><h4>Button</h4></summary>     
+  
+- `<button>`
+  - **기능** : `<form>` 전반에 대하여 기능하는 버튼을 생성함
+  
+  - **유형** : inline tag
+  
+  - **속성 목록**
+    - `type` : 버튼 기능 설정
+    
+    - `form` : 해당 버튼이 기능할 태그 `<form>` 설정
+      - 해당 속성값은 상위 태그 `<form>`의 속성 `id` 값에 대응함
+  
+  - **`type` 속성값 목록**
+    - `type = "button"` : 상위 태그 `<form>` 에 대하여 기능할 수 있는 버튼 생성
+      - 임의로 기능을 설정하고자 하는 경우 사용함
+      - `onClick` 속성값을 통해 간단한 기능을 설정할 수 있음
+      - JS를 활용하여 보다 복잡한 기능을 설정할 수 있음
+    
+    - `type = "reset"` : 상위 태그 `<form>` 에서 입력받은 값을 초기화하는 버튼 생성
+    
+    - `type = "submit"` : 상위 태그 `<form>` 에서 입력받은 값을 서버로 전송하는 버튼 생성    
+
+</details>     
   
 ---
 
