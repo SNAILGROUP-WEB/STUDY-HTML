@@ -390,6 +390,11 @@
   
   - **유형** : inline tag
 
+- `<del>` (**DEL**ete)
+  - **기능** : 텍스트 볼드체를 설정함
+  
+  - **유형** : inline tag
+
 - `<em>` (**EM**phasized text)
   - **기능** : 텍스트 기울임체를 설정함
   
