@@ -385,16 +385,16 @@
   
 ---
 
+- `<del>` (**DEL**ete)
+  - **기능** : 텍스트 취소선을 설정함
+  
+  - **유형** : inline tag
+
 - `<u>` (**U**nder bar)
   - **기능** : 텍스트 밑줄을 설정함
   
-  - **유형** : inline tag
-
-- `<del>` (**DEL**ete)
-  - **기능** : 텍스트 볼드체를 설정함
+  - **유형** : inline tag  
   
-  - **유형** : inline tag
-
 - `<em>` (**EM**phasized text)
   - **기능** : 텍스트 기울임체를 설정함
   
