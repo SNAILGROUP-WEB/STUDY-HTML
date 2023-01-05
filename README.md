@@ -199,7 +199,7 @@
   - **하위 태그 목록**
     - `<th>` (**T**able **H**eader) : 칼럼명 기입
     - `<td>` (**T**able **D**escription) : 내용 기입
-    - `<tr>` (**T**able **R**ow) : 행 바꾸기
+    - `<tr>` (**T**able **R**ow) : 개행
 
 </details>
 
