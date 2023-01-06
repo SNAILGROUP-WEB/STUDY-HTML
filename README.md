@@ -355,7 +355,9 @@
   - **하위 태그 목록**
     - 일반적인 block tag 와 달리, inline tag 만을 하위 태그로 취할 수 있음
 
-<details><summary><h4></h4></summary>
+</details>
+
+<details><summary><h4>Form</h4></summary>
   
 - `<blockqoute>`
   - **기능** : 인용구를 입력함
