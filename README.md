@@ -332,7 +332,7 @@
   
 ---
 
-## ✏ Text Tag
+## ✏ Text-Form Tag
 
 <details><summary><h4>Title</h4></summary>
 
@@ -354,7 +354,7 @@
 
 </details>
 
-<details><summary><h4>Form</h4></summary>
+<details><summary><h4>Text</h4></summary>
   
 - `<blockqoute>`
   - **기능** : 인용구를 입력함
