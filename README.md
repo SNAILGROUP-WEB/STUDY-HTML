@@ -166,13 +166,13 @@
     - `<li>` (**L**ist **I**tem) : 목록 기입
 
 - `<dl>` (**D**efinition **L**ist)
-  - **기능** : 내용과 설명이 쌍을 이루는 목록을 하위 태그로 가지는 시멘틱 태그
+  - **기능** : 제목과 내용이 쌍을 이루는 목록을 하위 태그로 가지는 시멘틱 태그
   
   - **유형** : block tag
   
   - **하위 태그 목록**
-    - `<dt>` (**D**efinition **T**ext) : 목록의 내용 기입
-    - `<dd>` (**D**efinition **D**escription) : 목록의 설명 기입
+    - `<dt>` (**D**efinition **T**itle) : 목록의 제목 기입
+    - `<dd>` (**D**efinition **D**escription) : 목록의 내용 기입
 
 </details>
 
